@@ -25,7 +25,7 @@ after installation complete go to your project
 cd ./(project_file)
 ```
 
-## 2. Go to offical [NativeWind](https://reactnative.dev/docs/typescript) Page
+## 2. Go to offical [NativeWind](https://www.nativewind.dev/getting-started/installation) Page
 
 _check your dependencies(package.json), what expo version you are using (for me v52.0.35)_
 
@@ -116,7 +116,7 @@ const config = getDefaultConfig(__dirname);
 
 module.exports = withNativeWind(config, { input: './global.css' });
 ```
-after that import your "global.css" file into main typescript file like
+after that import your "global.css" file into main typescript file like "App.tsx"
 
 ```tsx
 import "./global.css"
@@ -163,3 +163,8 @@ after that you will have all option (my case im using expo go app)
 * [IOS AppStore](https://apps.apple.com/us/app/expo-go/id982107779)
 
 scan qr code and you good to go
+
+if you want to install something with expo simply install with example:
+```
+npx expo install react-native-gesture-handler
+```
